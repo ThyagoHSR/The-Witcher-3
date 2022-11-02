@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar a,ul,li{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 40px;
+    color: gainsboro;
+    font-size: 17px;
+    font-family: 'MedievalSharp', cursive;
+    font-weight: bold;
+    padding: 8px;
+    background-color: black;
+    opacity: 1;
+}
+.navbar a:hover{
+    color: #e73526;
+}
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.title{
+    display: flex;
+    margin-left: 100px;
+}
+#wild{
+    color: rgb(197, 11, 11);
+}
+.btn1{
+    padding: 10px;
+    background-color: #e73526;
+    color: white;
+    padding: 10px;
+    font-family: 'Helvetica';
+    font-size: 19px;
+    margin-left: 350px;
+    cursor: pointer;
+}
+.banner{
+    background: linear-gradient(rgba(0.9, 0, 0,1), rgba(0, 0, 0.9,0.5)), url('assets/1244644.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.titulo1{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    margin-right: 800px;
+    color: #e73526;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 80px;
+}
+#text1{
+    color: white;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 70px;
+}
+.desc{
+    text-align: justify;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 22px;
+    margin-right: 700px;
+}
+.botoes{
+    display: flex;
+    gap: 30px;
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+.btn2{
+    padding: 25px;
+    color: white;
+    font-family: 'Helvetica';
+    font-size: 22px;
+    cursor: pointer;
+    background-color: #e73526;
+    border: none;
+}
+.btn3{
+    padding: 25px;
+    color: white;
+    font-family: 'Helvetica';
+    font-size: 22px;
+    cursor: pointer;
+    background-color: #212121;
+    border: none;
+}
+.section2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    color: white;
+    background-color: #e73526;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 20px;
+}
+.img{
+    height: 70px;
+    width: 200px;
+}
+.imagens{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    background-color: #e73526;
+    padding: 30px;
+    object-fit: cover;
+}
+.imgs{
+    height: 90px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+.xbox{
+    height: 90px;
+    width: 200px;
+}
+.slider{
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+.psn{
+    height: 90px;
+    width: 200px;
+
+}
+.steam{
+    height: 70px;
+    width: 180px;
+}
+.Geralt{
+    background: linear-gradient(rgba(0.9, 0, 0,1), rgba(0, 0, 0.9,0.5)), url('assets/blob_wu2u.1200.webp');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-blend-mode: darken;
+    color: white;
+    background-attachment: fixed;
+}
+.geralt1{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 400px;
+    margin-right: 50px;
+    flex-direction: column;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 30px;
+    gap: 10px;
+}
+.geralt1 h2{
+    font-size: 30px;
+    color: #e73526;
+    margin-right: 100px;
+}
+.geralt1 p{
+    font-size: 20.5px;
+    text-align: justify;
+    text-align: right;
+}
+.geralt1 h1{
+    margin-right: 100px;
+
+}
+.Ciri{
+    background: linear-gradient(rgba(0.9, 0, 0,1), rgba(0, 0, 0.9,0.5)), url('assets/ciri.webp');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-blend-mode: darken;
+    color: white;
+    background-attachment: fixed;
+}
+.ciri1{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 400px;
+    margin-right: 50px;
+    flex-direction: column;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 30px;
+    gap: 10px;
+}
+.ciri1 h2{
+    font-size: 30px;
+    color: #e73526;
+    margin-right: 200px;
+}
+.ciri1 p{
+    font-size: 20.5px;
+    text-align: justify;
+    text-align: right;
+}
+.ciri1 h1{
+    margin-right: 100px;
+}
+.Yennefer{
+    background: linear-gradient(rgba(0.9, 0, 0,1), rgba(0, 0, 0.9,0.5)), url('assets/yennefer.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-blend-mode: darken;
+    color: white;
+    background-attachment: fixed;
+}
+.yennefer1{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 400px;
+    margin-right: 50px;
+    flex-direction: column;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 30px;
+    gap: 10px;
+}
+.yennefer1 h2{
+    font-size: 30px;
+    color: #e73526;
+    margin-right: 200px;
+}
+.yennefer1 p{
+    font-size: 20.5px;
+    text-align: justify;
+    text-align: right;
+}
+.yennefer1 h1{
+    margin-right: 100px;
+}
+.Vesemir{
+    background: linear-gradient(rgba(0.9, 0, 0,1), rgba(0, 0, 0.9,0.5)), url('assets/vesemir.webp');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-blend-mode: darken;
+    color: white;
+    background-attachment: fixed;
+}
+.vesemir1{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 500px;
+    margin-right: 50px;
+    flex-direction: column;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 30px;
+    gap: 10px;
+}
+.vesemir1 h2{
+    font-size: 30px;
+    color: #e73526;
+    margin-right: 100px;
+}
+.vesemir1 p{
+    font-size: 20.5px;
+    text-align: justify;
+    text-align: right;
+}
+.vesemir1 h1{
+    margin-right: 100px;
+}
+.footer{
+    color: white;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 10px;
+    background-color: black;
+    text-align: center;
+    padding: 20.5px;
+}
+.thyagohsr a{
+    color: #e73526;
+    text-decoration: none;
+}
