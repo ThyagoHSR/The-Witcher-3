@@ -45,7 +45,7 @@ nav{
     cursor: pointer;
 }
 .banner{
-    background: linear-gradient(rgba(0.9, 0, 0,1), rgba(0, 0, 0.9,0.5)), url('assets/1244644.jpg');
+    background: linear-gradient(rgba(0.1, 0,1), rgba(0, 0, 0.1,0.1)), url('assets/1244644.jpg');
     background-repeat: no-repeat;
     height: 100vh;
     background-attachment: fixed;
@@ -75,7 +75,7 @@ nav{
     justify-content: center;
     color: white;
     font-family: 'MedievalSharp', cursive;
-    font-size: 22px;
+    font-size: 25px;
     margin-right: 700px;
 }
 .botoes{
@@ -179,13 +179,12 @@ nav{
     margin-right: 100px;
 }
 .geralt1 p{
-    font-size: 20.5px;
+    font-size: 22px;
     text-align: justify;
     text-align: right;
 }
 .geralt1 h1{
     margin-right: 100px;
-
 }
 .Ciri{
     background: linear-gradient(rgba(0.9, 0, 0,1), rgba(0, 0, 0.9,0.5)), url('assets/ciri.webp');
@@ -213,7 +212,7 @@ nav{
     margin-right: 200px;
 }
 .ciri1 p{
-    font-size: 20.5px;
+    font-size: 22px;
     text-align: justify;
     text-align: right;
 }
@@ -246,7 +245,7 @@ nav{
     margin-right: 200px;
 }
 .yennefer1 p{
-    font-size: 20.5px;
+    font-size: 22px;
     text-align: justify;
     text-align: right;
 }
@@ -279,7 +278,7 @@ nav{
     margin-right: 100px;
 }
 .vesemir1 p{
-    font-size: 20.5px;
+    font-size: 22px;
     text-align: justify;
     text-align: right;
 }
@@ -297,4 +296,148 @@ nav{
 .thyagohsr a{
     color: #e73526;
     text-decoration: none;
+}
+@media (max-width: 667px){
+    .navbar a{
+        display: none;
+    }
+    .navbar ul{
+        display: none;    
+    }
+    .banner{
+        background: linear-gradient(rgba(0.1, 0,1), rgba(0, 0, 0.1,0.1)), url('assets/banner\ responsivo2.png') center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        background-blend-mode: darken;
+        background-attachment: fixed;
+}
+    
+    .desc{
+        text-align: justify;
+        font-size: 14px;
+        padding: 10px;
+        margin: 3px;
+    }
+    .botoes{
+        margin-left: 50px;
+        margin-bottom: 150px;
+    }
+    button{
+        width: 160px;
+        height: 50px;
+    }
+    .btn2{
+        font-size: 15px;
+        padding: 5px;
+        font-weight: bold;
+    }
+    .btn3{
+        font-size: 15px;
+        padding: 5px;
+        font-weight: bold;
+    }
+    .imagens{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .witcher3{
+        font-size: 70px;
+        text-align: center;
+        position: absolute;
+        padding: 30px;
+    }
+    .psn{
+        width: 200px;
+        height: 70px;
+    }
+    .xbox{
+        width: 200px;
+        height: 100px;
+    }
+    .steam{
+        width: 200px;
+        height: 60px;
+    }
+    #text1{
+       margin-top: 60px;
+       padding: 30px;
+        position: absolute
+    }
+    .geralt1 p{
+        font-size: 15px;
+        text-align: justify;
+        margin-left: 50px;
+    }
+    .geralt1 h1{
+        font-size: 25px;
+    }
+    .geralt1 h2{
+        font-size: 25px;
+        display: flex;
+        width: 220px;
+        white-space: nowrap;
+    }
+    .ciri1 p{
+        font-size: 17px;
+        text-align: justify;
+        margin-left: 50px;
+    }
+    .ciri1 h1{
+        font-size: 25px;
+        width: 210px;
+        white-space: nowrap;
+    }
+    .ciri1 h2{
+        display: flex;
+        align-items: center;
+        width: 100px;
+        font-size: 25px;
+        white-space: nowrap;
+    }
+    .yennefer1 p{
+        font-size: 15px;
+        text-align: justify;
+        margin-left: 50px;
+    }
+    .yennefer1 h1{
+        font-size: 25px;
+        width: 215px;
+        white-space: nowrap;
+    }
+    .yennefer1 h2{
+        font-size: 25px;
+        margin-left: 20px;
+        width: 120px;
+        white-space: nowrap;
+    }
+    .vesemir1 p{
+        font-size: 14px;
+        text-align: justify;
+        padding: 10px;
+        margin-left: 50px;
+    }
+    .vesemir1 h1{
+        font-size: 25px;
+    }
+    .vesemir1 h2{
+        font-size: 25px;
+        width: 230px;
+        white-space: nowrap;
+    }
+   .Geralt{
+    background-position: center;
+   }
+   .Yennefer{
+    background-position: center;
+   }
+   .Vesemir{
+    background-position: center;
+   }
+   .footer{
+      font-size: 7px;
+   }
+   
 }
